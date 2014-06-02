@@ -40,6 +40,9 @@ I'm not completely sure if the tool will recognize all
 possible ways to declare an enum in C/C++. Please also mind the ToDo list 
 as there are still some features missing.
 
+The tool uses hash values to prevent unnecessary file rewrites and therefore
+unnecessary recompiles.
+
 
 ### Expected output ###
 In the current state, the tool is designed to recognize the 
