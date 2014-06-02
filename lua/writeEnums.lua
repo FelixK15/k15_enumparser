@@ -22,15 +22,15 @@ end
 
 function writeHeader(file)
     file:write("/***************************************************/\n");
-    file:write("/*Automatically generated file by the k15 enum tool*/\n");
-    file:write("/*Generated Hash Value for this file:\""..hashValue.."\"****/\n");
+    file:write("/***Automatically generated file by the enum tool***/\n");
+    file:write("/***Generated Hash Value for this file:\""..hashValue.."\"**/\n");
     file:write("/***************************************************/\n");
-    file:write("#ifndef K15_ENUM_STRINGS_H_\n");
-    file:write("#define K15_ENUM_STRINGS_H_\n");
+    file:write("#ifndef ENUM_STRINGS_H_\n");
+    file:write("#define ENUM_STRINGS_H_\n");
 end
 
 function writeFooter(file)
-    file:write("#endif //K15_ENUM_STRINGS_H_");
+    file:write("#endif //ENUM_STRINGS_H_");
 end
 
 function hashEqual(file)
