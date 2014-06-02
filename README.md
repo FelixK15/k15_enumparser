@@ -37,7 +37,8 @@ Options:
 ### What to consider ###
 This is the first version, so be prepared for some bugs.
 I'm not completely sure if the tool will recognize all 
-possible ways to declare an enum in C/C++.
+possible ways to declare an enum in C/C++. Please also mind the ToDo list 
+as there are still some features missing.
 
 
 ### Expected output ###
@@ -84,4 +85,6 @@ const char* eCornerTypesStr =
 Other ways of enums declaration *could* be recognized but I won't give you my word on it. 
 
 ### ToDo ###
-* recognize hex values
+* recognize hex values.
+* enum values as indices (optional).
+* recognize a wider range of possible enum declarations.
