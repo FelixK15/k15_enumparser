@@ -1,0 +1,4 @@
+D:\private repos\k15-engine-3d\engine\
+D:\private repos\k15-engine-3d\plugins\
+D:\private repos\k15-engine-3d\engine\renderer_opengl\
+D:\private repos\k15-engine-3d\engine\renderer_opengl_es\
