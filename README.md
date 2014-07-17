@@ -14,7 +14,7 @@ enum_tool.exe [-h] [-i input] [-o output] [-l] [-s] [-r]
 
 Options:
 
-   -t         Displays the help message.
+   -h         Displays the help message.
 
    -i input   Specify either a single C/C++ file (.h, .inl, .c, .cpp)
               or a .txt file with a list of directories, which contains
