@@ -7,7 +7,6 @@ to a new header files as string arrays.
 ### Overview ###
 
 ```
-#!lua
 EnumParser command line tool
 Syntax:
 enum_tool.exe [-h] [-i input] [-o output] [-l] [-s] [-r]
@@ -48,8 +47,7 @@ unnecessary recompiles.
 In the current state, the tool is designed to recognize the 
 following way to declare an enum:
 
-```
-#!cpp
+```cpp
 enum eCornerTypes
 {
    CT_FAR_LEFT_TOP = 0,
@@ -69,8 +67,7 @@ enum eCornerTypes
 After the tool has run and parsed the above enum, it should
 output the following code to a new file:
 
-```
-#!cpp
+```cpp
 const char* eCornerTypesStr = 
 {
    "CT_FAR_LEFT_TOP",
